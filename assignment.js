@@ -1,4 +1,4 @@
-
+// https://github.com/MHP0720/assignment-3
 
 
 // kilometerToMeter
@@ -9,7 +9,7 @@ function kilometerToMeter(kilometer){
 }
 
 
-var result = kilometerToMeter(-1);
+var result = kilometerToMeter(1);
 console.log(result);
 
 
@@ -24,7 +24,7 @@ function budgetCalculator (watch, phone, laptop){
     return result;
 }
 
-var sum = budgetCalculator(-1, 2, 3);
+var sum = budgetCalculator(1, 2, 3);
 console.log(sum);
 
 
@@ -42,7 +42,7 @@ else if(stayingOnHotel <= 20 ){
     var firstPart = 10 * 100;
     var remainingDays = stayingOnHotel - 10;
     var secondPart = remainingDays * 80;
-    Payment = firstPart + secondPart;
+    payment = firstPart + secondPart;
 }
 else{
     var firstPart = 10 * 100;
@@ -53,7 +53,7 @@ else{
 }
     return payment;
 }
-var cost = hotelCost(13);
+var cost = hotelCost(19);
 console.log(cost);
 
 
